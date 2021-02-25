@@ -1,0 +1,28 @@
+[
+    {
+        "txt": "Vous êtes proche du cinéma de Vayrac!",
+        "lang": "fr",
+        "priority": 1,
+        "requiredConditions": [
+            {
+                "reference": "distanceTo(44.95498, 1.70241)", 
+                "comparison": "<", 
+                "parameter": "1000" 
+            }    
+        ],
+        "forgettingConditions": []
+    },
+    {
+        "txt": "Vous n'êtes pas à proximité cinéma de Vayrac !",
+        "lang": "fr",
+        "priority": 1,
+        "requiredConditions": [
+            {
+                "reference": "distanceTo(44.95498, 1.70241)", 
+                "comparison": ">", 
+                "parameter": "1000"
+            }
+        ],
+        "forgettingConditions": []
+    }
+]
